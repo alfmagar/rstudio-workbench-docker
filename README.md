@@ -27,7 +27,7 @@ docker build -t <your-image-name>:<your-tag> .
 
 > **RSTUDIO_LICENSE:** RStudio Workbench valid license.
 
-## ¿Where is data stored?
+## Where is data stored?
 
 This image stores persistent data in 4 different locations:
 
