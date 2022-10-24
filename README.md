@@ -8,7 +8,7 @@ Contains RStudio Pro ODBC Drivers, Python 3.9.9 and R 4.1.3.
 
 This image is already built and ready to use here:
 
-[Docker Hub - Alfmagar RStudio Workbench](https://hub.docker.com/r/alfmagar/rstudio-server)
+[Docker Hub - Alfmagar RStudio Workbench](https://hub.docker.com/r/alfmagar/rstudio-workbench)
 
 If you prefer to customize it your way, feel free to download and modify this repository.
 
