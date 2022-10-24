@@ -1,0 +1,18 @@
+version: '3.2'
+services:
+  rstudio-workbench:
+    container_name: ${DOCKER_CONTAINER_NAME}
+    image: ${DOCKER_IMAGE}
+    hostname: ${RSTUDIO_DOCKER_HOSTNAME}
+    restart: always
+    environment:
+      USER: ${USER}
+      USER_PWD: ${USER_PWD}
+      RSTUDIO_LICENSE: ${RSTUDIO_LICENSE}
+    ports: 
+      - "80:80/tcp"
+    volumes:
+      - '${RSTUDIO_HOME_DATADIR}:/home'
+      - '${RSTUDIO_DATA_DATADIR}:/data'
+      - '${RSTUDIO_HTTP_LOGS_DATADIR}:/var/log/rstudio'
+      - '${RSTUDIO_RSERVER_LOGS_DATADIR}:/var/log/supervisor'

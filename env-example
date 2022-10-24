@@ -1,0 +1,17 @@
+#User config
+USER=example
+USER_PWD=example
+
+#License config
+RSTUDIO_LICENSE=<rstudio-license>
+
+#Docker config
+RSTUDIO_CONTAINER_NAME=rstudio-workbench
+RSTUDIO_IMAGE=alfmagar/rstudio-workbench:Ubuntu22.04-
+RSTUDIO_HOSTNAME=rstudio-workbench
+
+#Volumes config
+RSTUDIO_HOME_DATADIR=<host path to RStudio home users directory>
+RSTUDIO_DATA_DATADIR=<host path to RStudio data directory>
+RSTUDIO_HTTP_LOGS_DATADIR=<host path to RStudio http logs directory>
+RSTUDIO_RSERVER_LOGS_DATADIR=<host path to RStudio rserver logs directory>

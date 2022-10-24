@@ -1,0 +1,6 @@
+JobType: session
+Environment: LANG=es_ES.UTF-8
+    LANGUAGE=es_ES:es
+    LC_ALL=es_ES.UTF-8
+JobType: any
+Environment: PATH=/opt/python/3.9.9/bin:$PATH
